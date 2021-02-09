@@ -1,0 +1,152 @@
+if os.date("%Y%m%d") >= "20210216" then
+print("⚠️ sᴄʀɪᴘᴛ sᴜʀᴇsɪ ʙɪᴛᴍɪsᴛɪʀ  ⚠️️")
+return gg.alert("⚠️ sᴄʀɪᴘᴛ sᴜʀᴇsɪ ʙɪᴛᴍɪsᴛɪʀ  ⚠️️")
+end--Iғ
+
+ function TEAMCRACKERTR()
+end
+function setvalue(address,flags,value) TEAMCRACKERTR('Modify address value(Address, value type, value to be modified)') local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
+function Main()
+  CRACKER = gg.multiChoice({
+    "🎯SEKMEME",
+    "🎭HEADSHOT ̴",
+    "⚔️MAGİC",
+    "🔥AİMBOT",  
+    "💯ANTİBAN",
+    "✨SİYAH GÖKYÜZÜ",
+    "🔻ÇIKIŞ🔺",
+  }, nil, (os.date("%A, %d %B %Y %H:%M%p ")))
+  if CRACKER == nil then
+  else
+    if CRACKER[1] == true then
+      Less()
+    end
+    if CRACKER[2] == true then
+      Cross()
+    end
+    if CRACKER[3] == true then
+      Magic()
+    end
+    if CRACKER[4] == true then
+      AIMBOT()
+    end
+     if CRACKER[5] == true then
+      Wide()
+    end
+    if CRACKER[6] == true then
+      Exit()
+    end
+  end
+  XGCK = -1
+end
+function Less()
+so=gg.getRangesList('libUE4.so')[1].start
+py=0x136BDDC
+setvalue(so+py,4,0)
+gg.toast("@TeamCrackerTR")
+end
+
+function Cross()
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+gg.searchNumber("0.10000000149;64.50088500977", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+gg.editAll("8", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("-460", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("-560", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("250", gg.TYPE_FLOAT)
+end
+
+function Magic()
+gg.clearResults()   gg.setRanges(gg.REGION_ANONYMOUS) gg.searchNumber("69.5;35;33",
+gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
+gg.getResults(6) 
+gg.editAll("120", gg.TYPE_FLOAT) 
+gg.clearResults() 
+gg.toast("[✔] ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛ") 
+end
+
+function AIMBOT()
+setvalue(gg.getRangesList('libUE4.so')[1].start+0x258B740,4,0)
+gg.toast("\n𒊹︎︎︎/Xᴀ LɪʙBᴀsᴇ Cᴏᴅᴇ Oɴ •✓\n𒊹︎︎︎Tᴇʟᴇɢʀᴀᴍ: ZᴏᴠᴇʀTᴇᴀᴍ•✓\n𒊹︎︎︎Sᴄʀɪᴘᴛ Vᴇʀsɪᴏɴ: V4")
+end
+
+function Wide()
+gg.alert("⚡PANİK HACK VİP ANTİBAN⚡")
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.refineNumber("582749752655872", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.clearResults()
+gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.refineNumber("565157566611456", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.searchNumber("562954248388607;578351706144768", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.refineNumber("562954248388607", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.searchNumber("4398046511104;544434349408256", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.refineNumber("4398046511104", gg.TYPE_QWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll("288233678981562368", gg.TYPE_QWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.alert("ANTİBAN AKTİF")
+gg.alert("⚡PANİK HACK⚡")
+end
+
+function Exit()
+  gg.skipRestoreState()
+  os.exit()
+end
+
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    Main()
+  end
+end
+
+
+
+
+so = gg.getRangesList("libUE4.so")[1].start 
+py = 0x93A117C
+setvalue(so+py,16,9999)
+so = gg.getRangesList("libUE4.so")[1].start 
+py = 0x93A1180
+setvalue(so+py,16,9999)
